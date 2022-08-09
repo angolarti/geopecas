@@ -4,6 +4,8 @@ import { router } from "./api/products.js"
 
 
 const app = express()
+app.disable("x-powered-by")
+
 const PORT = process.env.PORT || 3000
 const HOST = process.env.HOST || '127.0.0.1'
 
