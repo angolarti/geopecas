@@ -2,16 +2,18 @@
   "name": "geopecas",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "npx nodemon src/*"
+    "start": "npx nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^28.1.6",
+    "express": "^4.18.1",
     "jest": "^28.1.3",
     "sonar-scanner": "^3.1.0"
   },
